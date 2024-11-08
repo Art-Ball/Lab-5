@@ -5,8 +5,7 @@ body{
 }
 
 h2, h1, h3 { 
-     font-family: $font_heading;
-     padding-top: 1.5em;
+     padding-top: 1em;
      margin: 0;
 }
 
@@ -23,11 +22,26 @@ h2, h1, h3 {
 .container1{
     flex-basis: 50%;
     background-color: $color__background;
-    padding: 2em;                              
+    padding: 5em;                              
 }
 
 .container2{
      flex-basis: 50%;
      background-color: $color__background2;
      padding: 4em;
+}
+
+
+/* button time */
+.startButton {
+     background: $color__white;
+     color: rgb(0, 0, 0);
+     border-radius: 5em;
+     cursor: pointer;
+     width: 28em;
+     height: 5em;
+     
+}
+.christButton{
+     padding-top: 3em;
 }

@@ -1,26 +1,32 @@
 @use "variables" as *;
 
+body{
+    font-family: "Julius Sans One", sans-serif;
+}
+h1, h2, h3{font-family: "Berkshire Swash", serif;}
 
-h1, h2{ color: $color__white;}
+h1, h2, h3{ color: $color__white;}
 
-h1, h2, h3 {
+h1 {
     font-weight: 700;
 }
-h4, h5, h6 {
-    font-weight: 600;
+
+h2, h4, h5, h6 {
+    font-weight: 350;
 }
-h1 { font-size: 4rem; }
-h2 { font-size: 1.5rem; }
-h3 { font-size: 1.17rem; }
-h4 { font-size: 1.00rem; }
-h5 { font-size: 0.83rem; }
-h6 { font-size: 0.67rem; }
+
+h3{
+    font-weight: 400;
+}
+
+h1 { font-size: 4.5rem; }
+h2 { font-size: 2.7rem; }
+h3 { font-size: 1.9rem; }
+
 
 
 p{ color: $color__white;}
 
-p{font-weight: 200;}
-
-p{ font-size: 2rem; }
+p{ font-size: 1.4rem; }
 
 pre { white-space: pre-wrap; }
