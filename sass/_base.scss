@@ -1,0 +1,33 @@
+@use "variables" as *; 
+
+body{
+     background-color: $color__darkRed;
+}
+
+h2, h1, h3 { 
+     font-family: $font_heading;
+     padding-top: 1.5em;
+     margin: 0;
+}
+
+.Hero{ 
+     background-image: url(../gifts-4678018_1920.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+      height: 30vh;
+     text-align: center;     
+}
+.content{ 
+     display: flex;
+}
+.container1{
+    flex-basis: 50%;
+    background-color: $color__background;
+    padding: 2em;                              
+}
+
+.container2{
+     flex-basis: 50%;
+     background-color: $color__background2;
+     padding: 4em;
+}

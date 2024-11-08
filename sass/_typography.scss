@@ -1,0 +1,26 @@
+@use "variables" as *;
+
+
+h1, h2{ color: $color__white;}
+
+h1, h2, h3 {
+    font-weight: 700;
+}
+h4, h5, h6 {
+    font-weight: 600;
+}
+h1 { font-size: 4rem; }
+h2 { font-size: 1.5rem; }
+h3 { font-size: 1.17rem; }
+h4 { font-size: 1.00rem; }
+h5 { font-size: 0.83rem; }
+h6 { font-size: 0.67rem; }
+
+
+p{ color: $color__white;}
+
+p{font-weight: 200;}
+
+p{ font-size: 2rem; }
+
+pre { white-space: pre-wrap; }
